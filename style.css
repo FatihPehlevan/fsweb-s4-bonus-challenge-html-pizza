@@ -19,7 +19,6 @@ header {
   text-align: center;
 }
 
-
 .home-banner {
   width: 100%;
   display: block;
@@ -27,15 +26,15 @@ header {
 
 .hero-content p {
   margin-top: 50px;
-  color: #FDC913;
-  font-family: "Satisfy", cursive;
+  color: #fdc913;
+  font-family: 'Satisfy', cursive;
   font-size: 1.5rem;
   font-size: 32px;
 }
 
 .hero-content h1 {
-  color: #FFFFFF;
-  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   font-size: 86px;
   line-height: 92px;
@@ -43,10 +42,10 @@ header {
 }
 
 .hero-content a {
-  background-color: #FDC913;
+  background-color: #fdc913;
   border-radius: 50px;
   color: #292929;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 18px;
   line-height: 56px;
   font-weight: 600;
@@ -59,23 +58,22 @@ nav {
   margin-top: 2rem;
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: center;
-   list-style-type: none;
-   gap: 3.5rem;
-
+  list-style-type: none;
+  gap: 3.5rem;
 }
 
 nav ul li {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 18px;
   line-height: 32.4px;
   font-weight: 600;
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
 }
 
 nav a {
@@ -83,6 +81,122 @@ nav a {
   color: #292929;
 }
 
+main {
+  background-color: #faf7f2;
+}
+
 .promos {
-  background-color:  #FAF7F2;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 1rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.promos img {
+  border-radius: 1rem;
+  max-width: 100%;
+  display: block;
+}
+
+.promos-left {
+  position: relative;
+  flex: 1;
+  color: white;
+}
+
+.promos-left-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 3rem;
+  padding-top: 2.5rem;
+  /* padding: 2rem; */
+}
+
+.promos-left-text h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: 'Quattrocento', serif;
+  line-height: 4rem;
+}
+
+.promos-left-text p {
+  font-size: 1.125rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+
+.siparis-ver-button {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Barlow', sans-serif;
+  border-radius: 50px;
+  background-color: white;
+  color: #ce2829;
+  align-self: flex-start;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.promos-right {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.promos-right-top-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.promos-right-top-text h3 {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+}
+
+.promos-right-bottom-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  inset: 0;
+  row-gap: 0.75rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+.bottom {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.promos-right-bottom-text h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  color: #292929;
+}
+
+.red {
+  color: #ce2829;
 }
