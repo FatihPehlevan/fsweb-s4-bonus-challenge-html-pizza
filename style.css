@@ -268,3 +268,52 @@ main {
 .filters ul li:nth-child(2) a {
   color: white;
 }
+
+.products {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  padding: 1rem 1rem;
+}
+
+.card img {
+  width: 85%;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1rem;
+  font-family: 'Barlow', sans-serif;
+  row-gap: 1rem;
+}
+.card-details h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-numbers p {
+  font-family: 'Barlow', sans-serif;
+  color: #292929;
+  font-size: 1.25rem;
+}
+
+.card-numbers span {
+  font-weight: bold;
+}
