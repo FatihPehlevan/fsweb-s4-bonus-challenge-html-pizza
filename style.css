@@ -487,5 +487,33 @@ footer hr {
   .footer-items {
     display: flex;
     flex-direction: column;
+    /* padding-left: 3rem; */
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .hot-menu {
+    padding-top: 2rem;
+  }
+
+  .instagram-images {
+    justify-content: flex-start;
+  }
+
+  .instagram h3 {
+    padding-left: 0;
+  }
+
+  .instagram {
+    padding-top: 2rem;
+  }
+
+  footer hr {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    width: 75%;
   }
 }
