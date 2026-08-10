@@ -41,6 +41,13 @@ header {
   letter-spacing: 1.5px;
 }
 
+.hero-content h1.title {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
 .hero-content a {
   background-color: #fdc913;
   border-radius: 50px;
@@ -113,7 +120,7 @@ main {
   position: absolute;
   inset: 0;
   row-gap: 0.75rem;
-  padding-left: 3rem;
+  padding-left: 2.5rem;
   padding-top: 2.5rem;
 }
 
@@ -324,50 +331,30 @@ footer {
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   color: white;
   max-width: 1080px;
   margin: 0 auto;
   padding-top: 4rem;
-  row-gap: 2rem;
-}
-
-.footer-headings {
-  display: flex;
-  width: 100%;
-  align-items: flex-end;
 }
 
 footer h2 {
   font-family: 'Londrina Solid', sans-serif;
   font-size: 3rem;
   letter-spacing: 1px;
+  padding-bottom: 2rem;
 }
 
 footer h3 {
   font-family: 'Barlow', sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
-}
-
-.footer-headings > * {
-  flex: 1 1 0;
-}
-
-.footer-headings h3:nth-of-type(1) {
-  padding-left: 2rem;
-}
-
-.footer-headings h3:nth-of-type(2) {
-  padding-left: 2.5rem;
-  transform: translateX(1.25rem);
+  padding-bottom: 2rem;
 }
 
 .footer-items {
   display: flex;
   justify-content: center;
+  /* align-items: baseline; */
   gap: 2rem;
   padding-bottom: 2rem;
 }
@@ -393,6 +380,10 @@ footer h3 {
   font-size: 1.125rem;
 }
 
+.hot-menu {
+  padding-top: 5rem;
+}
+
 .hot-menu ul {
   display: flex;
   flex-direction: column;
@@ -403,6 +394,17 @@ footer h3 {
 }
 
 .instagram {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-top: 5rem;
+}
+
+.instagram h3 {
+  padding-left: 1.25rem;
+}
+
+.instagram-images {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
@@ -426,4 +428,64 @@ footer hr {
 
 .copyright i {
   color: white;
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 1000px;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .hero-content p {
+    display: none;
+  }
+
+  .hero-content h1.title {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-banner {
+    height: 1100px;
+    object-fit: cover;
+  }
+
+  nav ul {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    gap: 0.5rem 3rem;
+    padding: 0;
+  }
+
+  .filters ul {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    gap: 1.5rem 2rem;
+    padding: 0;
+  }
+
+  .filters ul li {
+    padding: 0.75rem 0.75rem;
+    justify-content: center;
+  }
+
+  .menu-section h2 {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+  }
 }
