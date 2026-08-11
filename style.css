@@ -516,4 +516,65 @@ footer hr {
   .copyright {
     width: 75%;
   }
+
+  .products {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  .promos {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+  }
+
+  .promos-left-text {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .promos-left-text h2 {
+    font-size: 3.5rem;
+  }
+
+  .promos-left-text p {
+    font-size: 1rem;
+  }
+
+  .siparis-ver-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.75rem;
+  }
+
+  .promos-right-top-text {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .promos-right-top-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .promos-right-bottom-text {
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .promos-right-bottom-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .promos-right-top-text .siparis-ver-button {
+    margin-top: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+
+  .promos-right-bottom-text .siparis-ver-button {
+    margin-top: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
 }
